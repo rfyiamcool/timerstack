@@ -2,7 +2,7 @@
 
 ### 介绍:
 
-Python基于linux timerfd实现的定时器模块. 使用Epoll来监听调度timerfd .
+Python基于linux timerfd实现的定时器模块. 使用Epoll来监听调度timerfd.
 
 ### Install:
 ```
@@ -22,3 +22,7 @@ os.read(f,1024)
 ```
 python scheduler.py
 ```
+
+
+### TO DO:
+more...
