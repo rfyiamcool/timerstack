@@ -2,7 +2,7 @@
 
 ### 介绍:
 
-Python基于linux timerfd实现的定时器模块. 使用Epoll来监听调度timerfd.  更多介绍,  (xiaorui.cc)[http://xiaorui.cc]
+Python基于linux timerfd实现的定时器模块. 使用Epoll来监听调度timerfd.  [更多介绍](http://xiaorui.cc)
 
 ### Install:
 
@@ -24,7 +24,7 @@ timerstack.create():   创建一个相对时间的定时器fd
 timerstack.settime():  设置新旧时间，可以简单理解为间隔时间和次数.
 timerstack.gettime():  查看模式
 
-timerfd是用PyObject封装的timerfd c api, 所以可直接参考timerfd api.  ( linux timerfd )[http://man7.org/linux/man-pages/man2/timerfd_create.2.html]
+timerfd是用PyObject封装的timerfd c api, 所以可直接参考timerfd api.  ([linux timerfd ](http://man7.org/linux/man-pages/man2/timerfd_create.2.html)
 
 ```
 import timerstack,os
