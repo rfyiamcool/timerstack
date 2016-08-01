@@ -4,7 +4,7 @@
 
 Python基于linux timerfd实现的定时器模块. 使用Epoll来监听调度timerfd.  [更多介绍](http://xiaorui.cc)
 
-`需要说明的是, 社区中python timerfd 存在一些bug, 不可用. timerstack.c 是我用PyObject封装的timerfd c api. 我这边修复并加入Epoll监听事件重新打包一个可用的项目.`
+`需要说明的是, 社区中python timerfd 存在一些bug, 不可用呀...    timerstack.c 是我用PyObject timerfd c api封装的. 我这边修复并加入Epoll监听事件重新打包一个可用的项目.`
 
 具体文档可直接参考timerfd api.  [linux timerfd ](http://man7.org/linux/man-pages/man2/timerfd_create.2.html)
 
